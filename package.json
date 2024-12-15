@@ -2,10 +2,21 @@
   "name": "showme",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/showme",
+  "files": [
+    "dist"
+  ],
   "dependencies": {
+    "@elastic/datemath": "^5.0.3",
+    "@elastic/eui": "^98.1.0",
+    "@emotion/css": "^11.13.5",
+    "@emotion/react": "^11.14.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.46",
+    "prop-types": "^15.8.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
@@ -34,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1"
   }
 }
